@@ -13,54 +13,54 @@ function displayData(data) {
   data.forEach(function (item, index, array) {
     let row = document.createElement("div");
     row.className = "trow";
-
+    
     let leftside = document.createElement("div");
     leftside.className = "leftside";
-
+    
     let img = document.createElement("img");
     img.setAttribute("src", item.img_url);
-
+    
     let div = document.createElement("div");
     let h4 = document.createElement("h4");
     h4.innerText = item.name;
-
+    
     let h3 = document.createElement("h3");
     h3.innerText = item.sub_name;
-
+    
     let color = document.createElement("p");
     color.innerText = `Color: ${item.color}`;
-
+    
     let size = document.createElement("p");
     size.innerText = "item.size";
-
+    
     div.append(h4, h3, color), size;
     leftside.append(img, div);
-
+    
     let rightside = document.createElement("div");
     rightside.className = "rightside";
     let table_acc = document.createElement("div");
     table_acc.className = "table-action";
-
+    
     //price
     let mrp = document.createElement("h3");
     mrp.innerText = `(${item.price} each)`;
-
+    
     // totalQuantity
     let totalQTBtn = document.createElement("button");
     totalQTBtn.className = "btn-minddle";
     let qty = 1;
     totalQuantity += qty;
     totalQTBtn.innerText = qty;
-
+    
     //totalAmount
     let h1 = document.createElement("h1");
     let total = (item.price * qty).toFixed(2);
     totalPrice += +total;
     h1.innerText = `$${total}`;
     h1.className = "row-total";
-
+    
     let actionDiv = document.createElement("div");
-
+    
     //inc function
     let incBtn = document.createElement("button");
     incBtn.className = "inc-btn";
@@ -77,7 +77,7 @@ function displayData(data) {
         increaseDisplayTotalPrice(sPrice);
       }
     });
-
+    
     //dec function
     let decBtn = document.createElement("button");
     decBtn.className = "dec-btn";
