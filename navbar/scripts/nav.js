@@ -1,3 +1,10 @@
+import navbar from "../components/navbar.js"
+
+let nav=document.getElementById("navbar")
+nav.innerHTML=navbar()
+
+
+
 let btn=document.getElementById("signin")
 btn.addEventListener("click",function(){
     window.location.href="/overrated-impulse-4022/navbar/signup.html"
