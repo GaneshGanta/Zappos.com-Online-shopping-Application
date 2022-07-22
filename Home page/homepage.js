@@ -5,7 +5,6 @@
 
     function carosel(a){
         console.log("ganesh")
-
         let main=document.getElementById("carosel");
         main.innerHTML=null;
         for(let i=a;i<a+1;i++){
