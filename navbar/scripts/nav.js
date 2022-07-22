@@ -26,3 +26,8 @@ if(loginsucces==="successfull"){
 else{
     account.innerText="Sign In / Register"
 }
+let cart=document.getElementById("cart")
+cart.addEventListener("click",function(){
+    window.location.href="/overrated-impulse-4022/cart and payment/cart/cart.html"
+})
+
