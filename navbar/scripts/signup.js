@@ -20,15 +20,14 @@ let fun=()=>{
     let reenterpwd=document.getElementById("rpwd").value
     console.log(password)
     console.log(reenterpwd)
-
-    if(password===reenterpwd){
-        let newUser=new user(name,email,password)
-        console.log(newUser)
-        userlist.push(newUser)
-        let list=localStorage.setItem("userInfo",JSON.stringify(userlist))
-        window.location.href="/overrated-impulse-4022/navbar/login.html"
-    }
-    else{
-        alert("Password is not same re-enter the correct password")
-    }
+     if(password===reenterpwd){
+            let newUser=new user(name,email,password)
+            console.log(newUser)
+            userlist.push(newUser)
+            let list=localStorage.setItem("userInfo",JSON.stringify(userlist))
+            window.location.href="/overrated-impulse-4022/navbar/login.html"
+        }
+        else{
+            alert("Password is not same re-enter the correct password")
+        }
 }
