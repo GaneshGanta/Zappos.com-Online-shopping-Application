@@ -1,27 +1,27 @@
 
-let arr_of_data_of_sandals=[
+let arr_of_data_of_Wedges=[
 
 
-    {image:"https://m.media-amazon.com/images/I/71ti6ljaz3L._AC_SR768,1024_.jpg",name:"Madewell Norra Puffy Woven Slide",price:53.94},
-    {image:"https://m.media-amazon.com/images/I/31gX3lQc-UL._AC_SR768,1024_.jpg",name:"Salt Water Sandal by Hoy Shoes",price:49.49},
-    {image:"https://m.media-amazon.com/images/I/717r56JNxnL._AC_SR768,1024_.jpg",name:"Salt water Sandal of Retro",price:55.00},
-    {image:"https://m.media-amazon.com/images/I/71WEGdJ7cYL._AC_SR768,1024_.jpg",name:"OOFOS OOahh Slide Sandal",price:59.49},
-    {image:"https://m.media-amazon.com/images/I/814Z-w7lTDL._AC_SR768,1024_.jpg",name:"Birenstock",price:139.93},
-    {image:"https://m.media-amazon.com/images/I/71p+-qylu2L._AC_SR768,1024_.jpg",name:"Arizona Soft Footbed - Leather",price:150.00},
-    {image:"https://m.media-amazon.com/images/I/61QzEpnZf-L._AC_SR768,1024_.jpg",name:"Berkenstock Arizona ",price:178.95},
-    {image:"https://m.media-amazon.com/images/I/61vRwVh9AKL._AC_SR768,1024_.jpg",name:"Crocs Classic Flip-Flop",price:33},
-    {image:"https://m.media-amazon.com/images/I/71+VrwhYcLL._AC_SR768,1024_.jpg",name:"Adidas Flip flop",price:35.45},
-    {image:"https://m.media-amazon.com/images/I/61LFndmNZZL._AC_SR768,1024_.jpg",name:"Birkenstock Barbados Essentials",price:45.49},
-    {image:"https://m.media-amazon.com/images/I/61HG1yRwrUL._AC_SR768,1024_.jpg",name:"adidas Adilette Comfort Slides",price:34.00},
-    {image:"https://m.media-amazon.com/images/I/71nXMAnbGTL._AC_SR768,1024_.jpg",name:"VIONIC",price:67.99},
-    {image:"https://m.media-amazon.com/images/I/71JH6LtAN2L._AC_SR768,1024_.jpg",name:"Loungefly",price:45.95},
-    {image:"https://m.media-amazon.com/images/I/71a7IJCjGxL._AC_SR768,1024_.jpg",name:"HOkA",price:28.95},
-    {image:"https://m.media-amazon.com/images/I/71dVxN47UNS._AC_SR768,1024_.jpg",name:"Vans",price:58.95},
-    {image:"https://m.media-amazon.com/images/I/715iEAfbRJL._AC_SR768,1024_.jpg",name:"La Costa Slide-On",price:27.99},
+    {image:"https://m.media-amazon.com/images/I/71L18e1TDBL._AC_SX272_.jpg",name:"Steve Madden Idolized Wedge Sandal",price:63.50},
+    {image:"https://m.media-amazon.com/images/I/71XdAMH22KL._AC_SX272_.jpg",name:"SOREL Cameron Wedge Sandal",price:79.45 },
+    {image:"https://m.media-amazon.com/images/I/71Naih6+b1L._AC_SR1840,1472_.jpg",name:"LifeStride Delta",price:59.50},
+    {image:"https://m.media-amazon.com/images/I/81Anw1yUw7L._AC_SR1840,1472_.jpg",name:"SKECHERS Foamies Footsteps - Breezy Feels",price:159.49},
+    {image:"https://m.media-amazon.com/images/I/71fqnO7YnTL._AC_SR768,1024_.jpg",name:"Crocs Brooklyn Strappy Low Wedge",price:139.93},
+    {image:"https://m.media-amazon.com/images/I/71hBFoO8MqL._AC_SR768,1024_.jpg",name:"Steve Madden Idolized Wedge Sandal",price:148.00},
+    {image:"https://m.media-amazon.com/images/I/71+lnxJ27aL._AC_SR768,1024_.jpg",name:"Steve Madden Slinky30 Wedge Sandal",price:128.95},
+    {image:"https://m.media-amazon.com/images/I/812h+ddtK5L._AC_SR768,1024_.jpg",name:"Steve Madden Kimmie Espadrille Sandal",price:33.59},
+    {image:"https://m.media-amazon.com/images/I/81Fqph86VFL._AC_SX272_.jpg",name:"LifeStride Divine",price:135.90},
+    {image:"https://m.media-amazon.com/images/I/810qbZUQ1iL._AC_SR768,1024_.jpg",name:"LAUREN Ralph Lauren Beach bikini",price:145.49},
+    {image:"https://m.media-amazon.com/images/I/7134y90ECYL._AC_SX272_.jpg",name:"Clarks Annadel Eirwyn",price:84.69},
+    {image:"https://m.media-amazon.com/images/I/71Ap06mu+YL._AC_SR768,1024_.jpg",name:"SOREL Cameron Flatform Sandal",price:67.99},
+    {image:"https://m.media-amazon.com/images/I/71DfNwZnneL._AC_SR1840,1472_.jpg",name:"Steve MaddenDefuse Wedge Sandal",price:45.95},
+    {image:"https://m.media-amazon.com/images/I/71i6Q5+H91L._AC_SR768,1024_.jpg",name:"SKECHERS Arch Fit - City Catch",price:128.35},
+    {image:"https://m.media-amazon.com/images/I/71HJ2YirMKL._AC_SR768,1024_.jpg",name:"TOMS Marison Wedge",price:62.95},
+    {image:"https://m.media-amazon.com/images/I/61PMZboqI7L._AC_SR768,1024_.jpg",name:"Dansko",price:127.99},
 
 
 ];
-append(arr_of_data_of_sandals)
+append(arr_of_data_of_Wedges)
 
 function append(response){
     let container= document.querySelector("#grid")

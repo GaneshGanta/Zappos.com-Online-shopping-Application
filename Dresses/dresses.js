@@ -1,27 +1,27 @@
 
-let arr_of_data_of_sandals=[
+let arr_of_data_of_dresses=[
 
 
-    {image:"https://m.media-amazon.com/images/I/71ti6ljaz3L._AC_SR768,1024_.jpg",name:"Madewell Norra Puffy Woven Slide",price:53.94},
-    {image:"https://m.media-amazon.com/images/I/31gX3lQc-UL._AC_SR768,1024_.jpg",name:"Salt Water Sandal by Hoy Shoes",price:49.49},
-    {image:"https://m.media-amazon.com/images/I/717r56JNxnL._AC_SR768,1024_.jpg",name:"Salt water Sandal of Retro",price:55.00},
-    {image:"https://m.media-amazon.com/images/I/71WEGdJ7cYL._AC_SR768,1024_.jpg",name:"OOFOS OOahh Slide Sandal",price:59.49},
-    {image:"https://m.media-amazon.com/images/I/814Z-w7lTDL._AC_SR768,1024_.jpg",name:"Birenstock",price:139.93},
-    {image:"https://m.media-amazon.com/images/I/71p+-qylu2L._AC_SR768,1024_.jpg",name:"Arizona Soft Footbed - Leather",price:150.00},
-    {image:"https://m.media-amazon.com/images/I/61QzEpnZf-L._AC_SR768,1024_.jpg",name:"Berkenstock Arizona ",price:178.95},
-    {image:"https://m.media-amazon.com/images/I/61vRwVh9AKL._AC_SR768,1024_.jpg",name:"Crocs Classic Flip-Flop",price:33},
-    {image:"https://m.media-amazon.com/images/I/71+VrwhYcLL._AC_SR768,1024_.jpg",name:"Adidas Flip flop",price:35.45},
-    {image:"https://m.media-amazon.com/images/I/61LFndmNZZL._AC_SR768,1024_.jpg",name:"Birkenstock Barbados Essentials",price:45.49},
-    {image:"https://m.media-amazon.com/images/I/61HG1yRwrUL._AC_SR768,1024_.jpg",name:"adidas Adilette Comfort Slides",price:34.00},
-    {image:"https://m.media-amazon.com/images/I/71nXMAnbGTL._AC_SR768,1024_.jpg",name:"VIONIC",price:67.99},
-    {image:"https://m.media-amazon.com/images/I/71JH6LtAN2L._AC_SR768,1024_.jpg",name:"Loungefly",price:45.95},
-    {image:"https://m.media-amazon.com/images/I/71a7IJCjGxL._AC_SR768,1024_.jpg",name:"HOkA",price:28.95},
-    {image:"https://m.media-amazon.com/images/I/71dVxN47UNS._AC_SR768,1024_.jpg",name:"Vans",price:58.95},
-    {image:"https://m.media-amazon.com/images/I/715iEAfbRJL._AC_SR768,1024_.jpg",name:"La Costa Slide-On",price:27.99},
+    {image:"https://m.media-amazon.com/images/I/81aHQ7-3O2L._AC_SR768,1024_.jpg",name:"KENDALL + KYLIE Ruffle Halter Max Dress",price:153.94},
+    {image:"https://m.media-amazon.com/images/I/61Kw7pw01HL._AC_SR768,1024_.jpg",name:"LAUREN Ralph Lauren",price:79.49},
+    {image:"https://m.media-amazon.com/images/I/812hdRPzguL._AC_SR768,1024_.jpg",name:"BESTY & ADAM Short Rounched Metallic Knit Drape",price:155.00},
+    {image:"https://m.media-amazon.com/images/I/815s5eLG-cL._AC_SR768,1024_.jpg",name:"Alex Evenings Tea Length A-Line Rosette Dress",price:159.49},
+    {image:"https://m.media-amazon.com/images/I/51X+XsaX-eL._AC_SR768,1024_.jpg",name:"LAUREN Ralph Lauren Georgette Flutter -Sleeve Dress",price:139.93},
+    {image:"https://m.media-amazon.com/images/I/81EJ3zoG8eL._AC_SR768,1024_.jpg",name:"Alex Evenings Short Corded Lace Sheath V-Neck Dress",price:198.50},
+    {image:"https://m.media-amazon.com/images/I/718CIto5XjL._AC_SR768,1024_.jpg",name:"Adrianna Papell ",price:178.95},
+    {image:"https://m.media-amazon.com/images/I/81-AuleCgVL._AC_SR768,1024_.jpg",name:"XSCAPE Long Sheer Matte Beaded Flutter",price:133.59},
+    {image:"https://m.media-amazon.com/images/I/81SzqGLs2oL._AC_SR768,1024_.jpg",name:"Badgley Mischka",price:135.00},
+    {image:"https://m.media-amazon.com/images/I/61Wa5zFNvhL._AC_SR768,1024_.jpg",name:"Alex Evenings Long Cap Sleeve Empire Waist Dress",price:145.49},
+    {image:"https://m.media-amazon.com/images/I/710p2GLW9BL._AC_SR768,1024_.jpg",name:"XSCAPE Long 3/4 Sleeve Embroidered Sequin Dress",price:134.69},
+    { image:"https://m.media-amazon.com/images/I/71wrmSUnh0L._AC_SR768,1024_.jpg",name:"Vince Camuto Off-the-Shoulder Gown Double Dress",price:167.99},
+    {image:"https://m.media-amazon.com/images/I/61w3eF-ZA4L._AC_SR768,1024_.jpg",name:"Betsy & Adam One Shoulder Sutout Crepe Gown",price:145.95},
+    {image:"https://m.media-amazon.com/images/I/61msrXw5TBL._AC_SR768,1024_.jpg",name:"Betsy & Adam One Shoulder Sutout Crepe Gown",price:128.95},
+    {image:"https://m.media-amazon.com/images/I/712geQGSAkL._AC_SR768,1024_.jpg",name:"XSCAPE 3/4 Sleeve Sequin Top Stalin Top Stain Ballgown",price:158.95},
+    {image:"https://m.media-amazon.com/images/I/61vJJpxr9NL._AC_SR768,1024_.jpg",name:"Betsy & Adam Long Long Sleeve Jersey w/ Contrast Lining Gown",price:127.99},
 
 
 ];
-append(arr_of_data_of_sandals)
+append(arr_of_data_of_dresses)
 
 function append(response){
     let container= document.querySelector("#grid")

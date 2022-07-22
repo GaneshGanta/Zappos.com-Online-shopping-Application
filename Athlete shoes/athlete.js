@@ -1,27 +1,127 @@
 
-let arr_of_data_of_sandals=[
 
 
-    {image:"https://m.media-amazon.com/images/I/71ti6ljaz3L._AC_SR768,1024_.jpg",name:"Madewell Norra Puffy Woven Slide",price:53.94},
-    {image:"https://m.media-amazon.com/images/I/31gX3lQc-UL._AC_SR768,1024_.jpg",name:"Salt Water Sandal by Hoy Shoes",price:49.49},
-    {image:"https://m.media-amazon.com/images/I/717r56JNxnL._AC_SR768,1024_.jpg",name:"Salt water Sandal of Retro",price:55.00},
-    {image:"https://m.media-amazon.com/images/I/71WEGdJ7cYL._AC_SR768,1024_.jpg",name:"OOFOS OOahh Slide Sandal",price:59.49},
-    {image:"https://m.media-amazon.com/images/I/814Z-w7lTDL._AC_SR768,1024_.jpg",name:"Birenstock",price:139.93},
-    {image:"https://m.media-amazon.com/images/I/71p+-qylu2L._AC_SR768,1024_.jpg",name:"Arizona Soft Footbed - Leather",price:150.00},
-    {image:"https://m.media-amazon.com/images/I/61QzEpnZf-L._AC_SR768,1024_.jpg",name:"Berkenstock Arizona ",price:178.95},
-    {image:"https://m.media-amazon.com/images/I/61vRwVh9AKL._AC_SR768,1024_.jpg",name:"Crocs Classic Flip-Flop",price:33},
-    {image:"https://m.media-amazon.com/images/I/71+VrwhYcLL._AC_SR768,1024_.jpg",name:"Adidas Flip flop",price:35.45},
-    {image:"https://m.media-amazon.com/images/I/61LFndmNZZL._AC_SR768,1024_.jpg",name:"Birkenstock Barbados Essentials",price:45.49},
-    {image:"https://m.media-amazon.com/images/I/61HG1yRwrUL._AC_SR768,1024_.jpg",name:"adidas Adilette Comfort Slides",price:34.00},
-    {image:"https://m.media-amazon.com/images/I/71nXMAnbGTL._AC_SR768,1024_.jpg",name:"VIONIC",price:67.99},
-    {image:"https://m.media-amazon.com/images/I/71JH6LtAN2L._AC_SR768,1024_.jpg",name:"Loungefly",price:45.95},
-    {image:"https://m.media-amazon.com/images/I/71a7IJCjGxL._AC_SR768,1024_.jpg",name:"HOkA",price:28.95},
-    {image:"https://m.media-amazon.com/images/I/71dVxN47UNS._AC_SR768,1024_.jpg",name:"Vans",price:58.95},
-    {image:"https://m.media-amazon.com/images/I/715iEAfbRJL._AC_SR768,1024_.jpg",name:"La Costa Slide-On",price:27.99},
 
 
-];
-append(arr_of_data_of_sandals)
+
+let arr_of_data_of_sneakers=[
+
+
+{
+    image:
+      "https://content.shop4reebok.com/static/Product-EX4296/reebok_EX4296_1.jpg.plp",
+    name: "MEN'S REEBOK RUNNING ROADMAP SHOES",
+    price: "1170",
+    strikedoffprice: "$2599",
+  },
+  {
+    image:
+      "https://content.shop4reebok.com/static/Product-EX3921/reebok_EX3921_1.jpg.plp",
+    name: "MEN'S REEBOK SWIM ARUBA FLIP SLIPPERS ",
+    price: 699,
+  },
+  {
+    image:
+      "https://content.shop4reebok.com/static/Product-EX4160/reebok_EX4160_1.jpg.plp",
+    name: " MEN'S REEBOK RUNNING AUSTIN SHOES",
+    price: 945,
+    strikedoffprice: 2099,
+  },
+  {
+    image:
+      "https://content.shop4reebok.com/static/Product-FV8798/MEN_SWIM_SLIPPERS_FV8798_1.jpg.plp",
+    name: "MEN'S REEBOK SWIM AVENGER FLIP LP SLIPPERS",
+    price: 399,
+    strikedoffprice: 799,
+  },
+  {
+    image:
+      "https://content.shop4reebok.com/static/Product-EW5173/reebok_EW5173_1.jpg.plp",
+    name: "MEN'S REEBOK RUNNING TEMPO SHOES ",
+    price: 1620,
+    strikedoffprice: 3599,
+  },
+  {
+    image:
+      "https://content.shop4reebok.com/static/Product-FV7329/reebok_FV7329_1.jpg.plp ",
+    name: " MEN'S REEBOK RUNNING ASTRO BOOSTER SHOES ",
+    price: 1440,
+    strikedoffprice: 3199,
+  },
+  {
+    image:
+      "https://content.shop4reebok.com/static/Product-GD8567/MEN_TRAINING_PANTS_GD8567_1.jpg.plp ",
+    name: " MEN'S TRAINING WORKOUT READY ELITAGE PANTS ",
+    price: 1999,
+    strikedoffprice: 3199,
+  },
+  {
+    image:
+      "https://content.shop4reebok.com/static/Product-GQ8758/reebok_GQ8758_1.jpg.plp ",
+    name: "MEN'S REEBOK TRAINING  POLO T-SHIRTS TEE  ",
+    price: 769,
+    strikedoffprice: 1099,
+  },
+  {
+    image:
+      "https://content.shop4reebok.com/static/Product-GP7180/reebok_GP7180_1.jpg.plp",
+    name: "MEN'S REEBOK TRAINING WORKOUT  TEE  ",
+    price: 1299,
+    strikedoffprice: 1440,
+  },
+  {
+    image:
+      "https://content.shop4reebok.com/static/Product-EX3924/reebok_EX3924_1.jpg.plp ",
+    name: "MEN'S REEBOK SUPER SOFT FLIP SLIPPERS",
+    price: 699,
+    strikedoffprice: 999,
+  },
+  {
+    image:
+      "https://content.shop4reebok.com/static/Product-FW0343/reebok_FW0343_1.jpg.plp ",
+    name: "MEN'S REEBOK RUNNING RUN SHOES  ",
+    price: 1620,
+    strikedoffprice: 3599,
+  },
+  {
+    image:
+      "https://content.shop4reebok.com/static/Product-EX4285/reebok_EX4285_1.jpg.plp ",
+    name: "MEN'S REEBOK RUNNING GENESIS RUNNER SHOES  ",
+    price: 1620,
+    strikedoffprice: 3599,
+  },
+  {
+    image:
+      "https://content.shop4reebok.com/static/Product-FV9519/MEN_SWIM_SLIPPERS_FV9519_1.jpg.plp ",
+    name: "MEN'S REEBOK SWIM RUSSLE FLIP SLIPPERS  ",
+    price: 599,
+    strikedoffprice: 999,
+  },
+  {
+    image:
+      "https://content.shop4reebok.com/static/Product-FW0318/reebok_FW0318_1.jpg.plp ",
+    name: " MEN'S REEBOK RUNNING TREND RUNNER SHOES",
+    price: 1575,
+    strikedoffprice: 3499,
+  },
+  {
+    image:
+      "https://content.shop4reebok.com/static/Product-H00024/reebok_H00024_1.jpg.plp ",
+    name: "UNISEX REEBOK RUNNING ZIG KINETICA II SHOES  ",
+    price: 9999,
+    strikedoffprice: 12000,
+  },
+  {
+    image:
+      "https://content.shop4reebok.com/static/Product-GK9170/reebok_GK9170_1.jpg.plp ",
+    name: " MEN'S REEBOK TRAINING BAS POLO TEE ",
+    price: 779,
+    strikedoffprice: 1299,
+  }
+  
+
+]
+append(arr_of_data_of_sneakers)
 
 function append(response){
     let container= document.querySelector("#grid")
@@ -31,7 +131,7 @@ function append(response){
      let name= document.createElement("h3")
      name.innerText=`${el.name}`;
      let price= document.createElement("h4")
-     price.innerText=`$${el.price}`;
+     price.innerText=`${el.price}`;
  
      let div= document.createElement("div")
      div.append(image,name,price)

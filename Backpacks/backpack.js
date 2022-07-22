@@ -1,27 +1,28 @@
 
-let arr_of_data_of_sandals=[
+let arr_of_data_of_bags=[
 
 
-    {image:"https://m.media-amazon.com/images/I/71ti6ljaz3L._AC_SR768,1024_.jpg",name:"Madewell Norra Puffy Woven Slide",price:53.94},
-    {image:"https://m.media-amazon.com/images/I/31gX3lQc-UL._AC_SR768,1024_.jpg",name:"Salt Water Sandal by Hoy Shoes",price:49.49},
-    {image:"https://m.media-amazon.com/images/I/717r56JNxnL._AC_SR768,1024_.jpg",name:"Salt water Sandal of Retro",price:55.00},
-    {image:"https://m.media-amazon.com/images/I/71WEGdJ7cYL._AC_SR768,1024_.jpg",name:"OOFOS OOahh Slide Sandal",price:59.49},
-    {image:"https://m.media-amazon.com/images/I/814Z-w7lTDL._AC_SR768,1024_.jpg",name:"Birenstock",price:139.93},
-    {image:"https://m.media-amazon.com/images/I/71p+-qylu2L._AC_SR768,1024_.jpg",name:"Arizona Soft Footbed - Leather",price:150.00},
-    {image:"https://m.media-amazon.com/images/I/61QzEpnZf-L._AC_SR768,1024_.jpg",name:"Berkenstock Arizona ",price:178.95},
-    {image:"https://m.media-amazon.com/images/I/61vRwVh9AKL._AC_SR768,1024_.jpg",name:"Crocs Classic Flip-Flop",price:33},
-    {image:"https://m.media-amazon.com/images/I/71+VrwhYcLL._AC_SR768,1024_.jpg",name:"Adidas Flip flop",price:35.45},
-    {image:"https://m.media-amazon.com/images/I/61LFndmNZZL._AC_SR768,1024_.jpg",name:"Birkenstock Barbados Essentials",price:45.49},
-    {image:"https://m.media-amazon.com/images/I/61HG1yRwrUL._AC_SR768,1024_.jpg",name:"adidas Adilette Comfort Slides",price:34.00},
-    {image:"https://m.media-amazon.com/images/I/71nXMAnbGTL._AC_SR768,1024_.jpg",name:"VIONIC",price:67.99},
-    {image:"https://m.media-amazon.com/images/I/71JH6LtAN2L._AC_SR768,1024_.jpg",name:"Loungefly",price:45.95},
-    {image:"https://m.media-amazon.com/images/I/71a7IJCjGxL._AC_SR768,1024_.jpg",name:"HOkA",price:28.95},
-    {image:"https://m.media-amazon.com/images/I/71dVxN47UNS._AC_SR768,1024_.jpg",name:"Vans",price:58.95},
-    {image:"https://m.media-amazon.com/images/I/715iEAfbRJL._AC_SR768,1024_.jpg",name:"La Costa Slide-On",price:27.99},
+    {image:"https://m.media-amazon.com/images/I/913-qWgfeBL._AC_SR1472,1840_.jpg",name:"Herschel Classic X-Large",price:29.94},
+    {image:"https://m.media-amazon.com/images/I/918hvPlasBL._AC_SR1472,1840_.jpg",name:"O'Neil Classic X-medium",price:20.49},
+    {image:"https://m.media-amazon.com/images/I/91-1RPwNsZL._AC_SR1472,1840_.jpg",name:"Vans Kids",price:32.00},
+    {image:"https://m.media-amazon.com/images/I/9186ZXbg5RL._AC_SR1472,1840_.jpg",name:"Herschel Supply Co.",price:44.49},
+    {image:"https://m.media-amazon.com/images/I/81nGhMCZgdL._AC_SR1472,1840_.jpg",name:"American Tourister",price:39.93},
+    {image:"https://m.media-amazon.com/images/I/91tPQS1qU8L._AC_SR1472,1840_.jpg",name:"Roxy",price:50.00},
+    {image:"https://m.media-amazon.com/images/I/71ryqEV1JbL._AC_SR1472,1840_.jpg",name:"The North Face Pivoter Backpack",price:38.95},
+    {image:"https://m.media-amazon.com/images/I/71jYJ+U1ymL._AC_SR1472,1840_.jpg",name:"Hedgren Balanced- Medium Backpack RFID",price:14.55},
+    {image:"https://m.media-amazon.com/images/I/91WV74j0LmL._AC_SR1472,1840_.jpg",name:"Columbia",price:29.50},
+    {image:"https://m.media-amazon.com/images/I/81O-q8SZNxL._AC_SR1472,1840_.jpg",name:"Vera Bradley Cotton Utility Large Backpack",price:52.49},
+    {image:"https://m.media-amazon.com/images/I/81kQDCvv--L._AC_SR1472,1840_.jpg",name:"The North Face Sprout (Toddler/little Kid",price:35.00},
+    {image:"https://m.media-amazon.com/images/I/71Ts8wH2ixL._AC_SR1472,1840_.jpg",name:"Columbia Zigzag 22 L Backpack",price:27.99},
+    {image:"https://m.media-amazon.com/images/I/81FcnCqjyqL._AC_SR1472,1840_.jpg",name:"Loungefly",price:25.50},
+    {image:"https://m.media-amazon.com/images/I/81VhvzHmQYL._AC_SR1472,1840_.jpg",name:"The North Face",price:68.95},
+    {image:"https://m.media-amazon.com/images/I/91yohH9p0qL._AC_SR1472,1840_.jpg",name:"Kipling Seoul S Backpack",price:38.95},
+    {image:"https://m.media-amazon.com/images/I/81xCxqDgnUL._AC_SR1472,1840_.jpg",name:"Tumi Louise Backpack",price:28.99},
+
 
 
 ];
-append(arr_of_data_of_sandals)
+append(arr_of_data_of_bags)
 
 function append(response){
     let container= document.querySelector("#grid")
