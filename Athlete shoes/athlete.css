@@ -482,4 +482,8 @@ a{
 }
 #sigin:hover{
     border-bottom: 1px solid black;
+}#sort {
+    font-size: larger;
+    font-weight: bold;
+    border: 1px solid rgb(71, 3, 243);
 }

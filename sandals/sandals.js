@@ -25,6 +25,7 @@ append(arr_of_data_of_sandals)
 
 function append(response){
     let container= document.querySelector("#grid")
+    container.innerHTML=null;
     response.forEach((el)=>{
      let image=document.createElement("img")
      image.src=el.image;
@@ -266,3 +267,28 @@ function append(response){
  document.getElementById("navbar").innerHTML=navbar()
  import footer from "../navbar/components/footer.js"
  document.getElementById("foot").innerHTML=footer()
+
+ let sortBy =document.getElementById("sort")
+ sortBy.addEventListener("change",sortData)
+
+ function sortData(){
+    let value=sortBy.value;
+
+    if(value=="lth"){
+     arr_of_data_of_sandals.sort(function(a,b){
+        if(a.price>b.price) return 1;
+        if(a.price<b.price) return -1;
+        return 0;
+      })
+      console.log(arr_of_data_of_sandals)
+      append(arr_of_data_of_sandals)
+      } else {
+    arr_of_data_of_sandals.sort(function(a,b){
+        if(a.price<b.price) return 1;
+        if(a.price>b.price) return -1;
+        return 0;
+      })
+      console.log(arr_of_data_of_sandals)
+     append(arr_of_data_of_sandals)
+    }
+}

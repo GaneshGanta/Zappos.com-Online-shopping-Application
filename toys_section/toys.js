@@ -1,57 +1,98 @@
 let toys=[{image:"https://m.media-amazon.com/images/I/81B9UHWyMiL._AC_SR768,1024_.jpg",
-name:"Manhattan Toy Manhattan Toy Moppettes Bea Bear Stuffed Animal Nurturing Playset with Bear Plush Toy"
+name:"Manhattan Toy Manhattan Toy Moppettes Bea Bear Stuffed Animal Nurturing Playset with Bear Plush Toy",
+price:23.50
 },
 {image:"https://m.media-amazon.com/images/I/71bKgIkbNXL._AC_SR768,1024_.jpg",
-name:"Manhattan Toy Manhattan Toy Little Jurassics Chomp Dinosaur Stuffed Animal"},
+name:"Manhattan Toy Manhattan Toy Little Jurassics Chomp Dinosaur Stuffed Animal",
+price:16.99
+},
 {image:"https://m.media-amazon.com/images/I/71F3b8EeynL._AC_SR768,1024_.jpg",
-name:"Melissa & Doug Melissa & Doug On The Go Water Wow! Reusable Water-Reveal Deluxe Activity Pad"},
+name:"Melissa & Doug Melissa & Doug On The Go Water Wow! Reusable Water-Reveal Deluxe Activity Pad",
+price:43.50
+},
 {image:"https://m.media-amazon.com/images/I/815N1bYPccL._AC_SR768,1024_.jpg",
-name:"LEGO LEGO DC Batman Batmobile Tumbler: Scarecrow Showdown 76239 (422 Pieces)"},
+name:"LEGO LEGO DC Batman Batmobile Tumbler: Scarecrow Showdown 76239 (422 Pieces)",
+price:23.40
+},
 {image:"https://m.media-amazon.com/images/I/812pjfDOsRL._AC_SR768,1024_.jpg",
-name:"LEGO LEGO City Chicken Stunt Bike 60310 Building Kit; Fun Cool Toy for Kids (10 Pieces)"},
+name:"LEGO LEGO City Chicken Stunt Bike 60310 Building Kit; Fun Cool Toy for Kids (10 Pieces)",
+price:12.90
+},
 {image:"https://m.media-amazon.com/images/I/81+-XbOIPeL._AC_SR768,1024_.jpg",
-name:"LEGO LEGO Disney Encanto The Madrigal House 43202 Building Kit; Kids Who Love Construction Toys and House Play (587 Pieces)"},
+name:"LEGO LEGO Disney Encanto The Madrigal House 43202 Building Kit; Kids Who Love Construction Toys and House Play (587 Pieces)",
+price:19.99
+},
 {image:"https://m.media-amazon.com/images/I/71jMCiYhDeL._AC_SR768,1024_.jpg",
-name:"LEGO LEGO City Stunt Competition 60299 Building Kit (73 Pieces)"},
+name:"LEGO LEGO City Stunt Competition 60299 Building Kit (73 Pieces)",
+price:32.80
+},
 {image:"https://m.media-amazon.com/images/I/81Ai9MzqnLL._AC_SR768,1024_.jpg",
-name:"Ravensburger Ravensburger Universal Back to The Future Game Strategy Game for Ages 10 & Up"},
+name:"Ravensburger Ravensburger Universal Back to The Future Game Strategy Game for Ages 10 & Up",
+price:12.50
+},
 {image:"https://m.media-amazon.com/images/I/819hi2UK7PL._AC_SR768,1024_.jpg",
-name:"LEGO LEGO City Stunt Park 60293 Building Kit (170 Pieces)"},
+name:"LEGO LEGO City Stunt Park 60293 Building Kit (170 Pieces)",
+price:35.50
+},
 {image:"https://m.media-amazon.com/images/I/710VRkFD-zL._AC_SR768,1024_.jpg",
-name:"LEGO LEGO City Selfie Stunt Bike 60309 Building Kit; Fun Selfie Stick Stunt Bike Toy for Kids (14 Pieces)"},
+name:"LEGO LEGO City Selfie Stunt Bike 60309 Building Kit; Fun Selfie Stick Stunt Bike Toy for Kids (14 Pieces)",
+price:25.50
+},
 {image:"https://m.media-amazon.com/images/I/514wwvpKs6L._AC_SR768,1024_.jpg",
-name:"LEGO LEGO City Demolition Stunt Bike 60297 Building Kit (12 Pieces)"},
+name:"LEGO LEGO City Demolition Stunt Bike 60297 Building Kit (12 Pieces)",
+price:30.50
+},
 {image:"https://m.media-amazon.com/images/I/81zEkx-778L._AC_SR768,1024_.jpg",
-name:"LEGO LEGO City Fire Stunt Bike 60311 Building Kit; Fun, Cool Toy for Kids (11 Pieces)"},
+name:"LEGO LEGO City Fire Stunt Bike 60311 Building Kit; Fun, Cool Toy for Kids (11 Pieces)",
+price:40.90
+},
 {image:"https://m.media-amazon.com/images/I/71Tj7A1U1YL._AC_SR768,1024_.jpg",
-name:"LEGO LEGO City Rocket Stunt Bike 60298 Building Kit (14 Pieces)"},
+name:"LEGO LEGO City Rocket Stunt Bike 60298 Building Kit (14 Pieces)",
+price:32.45
+},
 {image:"https://m.media-amazon.com/images/I/61Rs9CT9nAL._AC_SR768,1024_.jpg",
-name:"Manhattan Toy Manhattan Toy Wimmer-Ferguson Crinkle Tiger Baby Sensory Toy with Ribbon Tags"},
+name:"Manhattan Toy Manhattan Toy Wimmer-Ferguson Crinkle Tiger Baby Sensory Toy with Ribbon Tags",
+price:40.85
+},
 {image:"https://m.media-amazon.com/images/I/61QCbKRypGL._AC_SR768,1024_.jpg",
-name:"Manhattan Toy Manhattan Toy Woodlanders Bella Owl Stuffed Animal"},
+name:"Manhattan Toy Manhattan Toy Woodlanders Bella Owl Stuffed Animal",
+price:35.50
+},
 {image:"https://m.media-amazon.com/images/I/61nlrSKsnPL._AC_SR768,1024_.jpg",
-name:"Manhattan Toy Manhattan Toy Little Nook Stuffed Animal with Removable Clothing, Sleeping Bag & Keepsake Box"},
+name:"Manhattan Toy Manhattan Toy Little Nook Stuffed Animal with Removable Clothing, Sleeping Bag & Keepsake Box",
+price:45.50
+},
 {image:"https://m.media-amazon.com/images/I/71YghW90kyL._AC_SR768,1024_.jpg",
-name:"Manhattan Toy Manhattan Toy Musical Forest Trio 3 Piece Wooden Toy Set for Toddlers with Bear Rattle, Llama Clacker & Hedgehog Guiro"},
+name:"Manhattan Toy Manhattan Toy Musical Forest Trio 3 Piece Wooden Toy Set for Toddlers with Bear Rattle, Llama Clacker & Hedgehog Guiro",
+price:18.99
+},
 {image:"https://m.media-amazon.com/images/I/81MGmkS1h6L._AC_SR768,1024_.jpg",
-name:"Manhattan Toy Manhattan Toy Squeezmeez Squeezable"},
+name:"Manhattan Toy Manhattan Toy Squeezmeez Squeezable",
+price:10.99
+},
 {image:"https://m.media-amazon.com/images/I/71jjpXR0xEL._AC_SR768,1024_.jpg",
-name:"Manhattan Toy Manhattan Toy Little Jurassics Stuffed Animal"},
+name:"Manhattan Toy Manhattan Toy Little Jurassics Stuffed Animal",
+price:45.54
+},
 {image:"https://m.media-amazon.com/images/I/61qxH8x6xkL._AC_SR768,1024_.jpg",
-name:"Manhattan ToyLloyd"}
+name:"Manhattan ToyLloyd",
+price:8.99
+},
 ]
 let append=()=>{
 let div=document.querySelector("#maintoys")
 div.innerHTML=null;
 toys.forEach(function(el){
     let card=document.createElement("div")
+    card.setAttribute("id","colorChange")
     let image=document.createElement("img")
     image.setAttribute("id","img")
     image.src=el.image;
     let name=document.createElement("h3")
     name.innerText=el.name
     let price=document.createElement("h4")
-    price.innerText=`$${Math.floor(Math.random()*100)}`
+    //price.innerText=`$${Math.floor(Math.random()*100)}`
+    price.innerText=`$${el.price}`
     card.addEventListener("click",function(){
         storeData(el)
         })
@@ -201,3 +242,28 @@ let size=document.createElement("div")
  list.push(el)
  localStorage.setItem("productinfo",JSON.stringify(list))
  }
+
+ let sortBy =document.getElementById("sort")
+ sortBy.addEventListener("change",sortData)
+
+ function sortData(){
+    let value=sortBy.value;
+
+    if(value=="lth"){
+    toys.sort(function(a,b){
+        if(a.price>b.price) return 1;
+        if(a.price<b.price) return -1;
+        return 0;
+      })
+      console.log(toys)
+      append(toys)
+      } else {
+    toys.sort(function(a,b){
+        if(a.price<b.price) return 1;
+        if(a.price>b.price) return -1;
+        return 0;
+      })
+      console.log(toys)
+     append(toys)
+    }
+}

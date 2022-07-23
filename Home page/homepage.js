@@ -215,7 +215,7 @@ let right=5;
 abc(left,right);
 
 
-function slideright(){
+function slideRight(){
     console.log("ganws")
     if(right>11){
         return;
@@ -233,7 +233,7 @@ function slideleft(){
     console.log("ganesh")
 
     if(left==0){
-        return;
+        console.log("ganesh");
     }else{
         right=right-6;
         left=left-6;
@@ -280,7 +280,7 @@ function brands(arr){
 });
 
 };
-//brands(arr_of_images5);
+brands(arr_of_images5);
 
 function sliding(left,right){
     let main=document.getElementById("trending");
@@ -400,4 +400,22 @@ searchbtn.addEventListener("click",function(){
     else if(query==="swimwear"){
         window.location.href='/overrated-impulse-4022/Swim Wear/swimwear.html'
     }
+})
+let firstLeft =document.getElementById("slideLeft")
+firstLeft.addEventListener("click",function(){
+    slideleft()
+});
+let firstRight =document.getElementById("slideRight")
+firstRight.addEventListener("click",function(){
+    slideRight()
+
+});
+
+let secLeft=document.getElementById("leftSlide")
+secLeft.addEventListener("click",function(){
+    leftSlide();
+})
+let secRight=document.getElementById("rightSlide")
+secRight.addEventListener("click",function(){
+    rightSlide();
 })

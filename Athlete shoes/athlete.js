@@ -1,9 +1,4 @@
 
-
-
-
-
-
 let arr_of_data_of_sneakers=[
 
 
@@ -125,13 +120,14 @@ append(arr_of_data_of_sneakers)
 
 function append(response){
     let container= document.querySelector("#grid")
+    container.innerHTML=null;
     response.forEach((el)=>{
      let image=document.createElement("img")
      image.src=el.image;
      let name= document.createElement("h3")
      name.innerText=`${el.name}`;
      let price= document.createElement("h4")
-     price.innerText=`${el.price}`;
+     price.innerText=`$${el.price}`;
  
      let div= document.createElement("div")
      div.append(image,name,price)
@@ -366,3 +362,28 @@ function append(response){
  document.getElementById("navbar").innerHTML=navbar()
  import footer from "../navbar/components/footer.js"
  document.getElementById("foot").innerHTML=footer()
+
+ let sortBy =document.getElementById("sort")
+ sortBy.addEventListener("change",sortData)
+
+ function sortData(){
+    let value=sortBy.value;
+
+    if(value=="lth"){
+     arr_of_data_of_sneakers.sort(function(a,b){
+        if(a.price>b.price) return 1;
+        if(a.price<b.price) return -1;
+        return 0;
+      })
+      console.log(arr_of_data_of_sneakers)
+      append(arr_of_data_of_sneakers)
+      } else {
+    arr_of_data_of_sneakers.sort(function(a,b){
+        if(a.price<b.price) return 1;
+        if(a.price>b.price) return -1;
+        return 0;
+      })
+      console.log(arr_of_data_of_sneakers)
+     append(arr_of_data_of_sneakers)
+    }
+ }
