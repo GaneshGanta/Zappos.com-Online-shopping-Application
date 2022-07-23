@@ -5,7 +5,7 @@
     justify-content: space-evenly;
 }
 #left{
-    width:120px;
+    width:20px;
     height:auto;
   
 }
@@ -131,3 +131,6 @@ cursor: pointer;
     justify-content: flex-end;
     font-size: 12px;
 }
+
+
+

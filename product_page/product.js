@@ -1,13 +1,12 @@
-let arr=JSON.parse(localStorage.getItem("productInfo"))||[]
 
 
 import main from "../product_page/component/importp.js"
 
-document.querySelector("#main").innerHTML=main();
+document.querySelector("#main").innerHTML=main()
 
-// import product_data from "../product-data-2/components/p2.js";
+import navbar from "../navbar/components/navbar.js"
+document.getElementById("navbar").innerHTML=navbar()
 
-// document.getElementById("main-2").innerHTML=product_data();
 
 document.querySelector("#in").addEventListener("click",function(e) {
     document.querySelector("#r").innerHTML=` <p>
@@ -71,3 +70,14 @@ document.getElementById("cartbutton").addEventListener("click", function(e) {
 count++;
 localStorage.setItem('items', JSON.stringify(count))
 })
+
+let arr=JSON.parse(localStorage.getItem("productinfo"))||[]
+console.log(arr)
+function display(){
+ arr.forEach(function(el){
+    document.querySelector("#mid1").src=`${el.image}`;
+    document.querySelector("#name1").innerText=`${el.name}`;
+    document.querySelector("#price1").innerText=`${el.price}`;
+})
+}
+display(arr)
