@@ -260,10 +260,11 @@ function append(response){
  div.append(shoe1)
  })
  function storeData(el){
- let list=JSON.parse(localStorage.getItem("productinfo"))||[]
- list.push(el)
- localStorage.setItem("productinfo",JSON.stringify(list))
- }
+    //  let list=JSON.parse(localStorage.getItem("productinfo"))
+    //  list.push(el)
+     localStorage.setItem("productinfo",JSON.stringify(el))
+     window.location.href="/overrated-impulse-4022/product_page/product.html"
+     }
  import navbar from "../navbar/components/navbar.js"
  document.getElementById("navbar").innerHTML=navbar()
  import footer from "../navbar/components/footer.js"

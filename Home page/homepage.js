@@ -167,24 +167,24 @@ function redirect(el){
 let arr_of_images4=[
 
 
-    {image:"https://m.media-amazon.com/images/I/91NlHmHtP1L._AC_SX255_.jpg",rating:"&#9825 2255;",details:"Calvin Klein Underwear modern cotton",price:"$75"},
-    {image:"https://m.media-amazon.com/images/I/81NYE4eC+xL._AC_SX255_.jpg",rating:"&#9825 216",details:"Calvin Klein Modern Cootm Light weight",price:"$47"},
-    {image:"https://m.media-amazon.com/images/I/61wO3GRY0SL._AC_SX255_.jpg",rating:"&#9825 688",details:"adidas Adilette Comfort ADJ",price:"$35.00"},
-    {image:"https://m.media-amazon.com/images/I/71xRHd9E7AL._AC_SX255_.jpg",rating:"&#9825 176",details:"adidas Running Cloudfoam Pure 2.0",price:"$22.67"},
-    {image:"https://m.media-amazon.com/images/I/71rQq8PIULL._AC_SX255_.jpg",rating:"&#9825 478",details:"Under Armour Raid 2.0 Shorts",price:"$22.67"},
-    {image:"https://m.media-amazon.com/images/I/71zTWHC52RL._AC_SX255_.jpg",rating:"&#9825 245",details:"Under Armour Raid 2.0 Shorts",price:"$22.58"},
-    {image:"https://m.media-amazon.com/images/I/711y37XiVqL._AC_SX255_.jpg",rating:"&#9825 2858",details:"Crocs Classic Tie-Dye-Grape",price:"$35.00"},
-    {image:"https://m.media-amazon.com/images/I/71mmrJgjtbL._AC_SX255_.jpg",rating:"&#9825 193",details:"adidas Running Cloudfoam Pure 2.0",price:"$74.95"},
-    {image:"https://m.media-amazon.com/images/I/81j8hvSmu7L._AC_SX255_.jpg",rating:"&#9825 26",details:"Calvin klein Men's Cottom Classic",price:"$59.50"},
-    {image:"https://m.media-amazon.com/images/I/71u6W-t6wOL._AC_SX255_.jpg",rating:"&#9825 75",details:"Crocs kids classic clog(Toddler)",price:"$34.95"},
-    {image:"https://m.media-amazon.com/images/I/71wbtYunZzL._AC_SX255_.jpg",rating:"&#9825 91",details:"adidas Running Questar",price:"$57.91"},
-    {image:"https://m.media-amazon.com/images/I/81bdJtidxtL._AC_SX255_.jpg",rating:"&#9825 507",details:"Levi's@Women's 501@ High-Rise Shorts",price:"$49.99"},
-    {image:"https://m.media-amazon.com/images/I/812dWoLYTeL._AC_SX255_.jpg",rating:"&#9825 228",details:"Under Armour UA TECH 1/2 ZIP",price:"$27.97"},
-    {image:"https://m.media-amazon.com/images/I/61OB1zpc5WL._AC_SX255_.jpg",rating:"&#9825 14 ",details:"Under Armour New Freedom Flag",price:"$20.75"},
-    {image:"https://m.media-amazon.com/images/I/81fKtCtOOGS._AC_SX255_.jpg",rating:"&#9825 316",details:"Levi's@Womes's Wedgie Straight",price:"$69.99"},
-    {image:"https://m.media-amazon.com/images/I/61Edlc2zjAL._AC_SX255_.jpg",rating:"&#9825 402",details:"Crocs Classic Lined Tie-Dynamic ",price:"$40.00"},
-    {image:"https://m.media-amazon.com/images/I/61TKFhh1HnL._AC_SX255_.jpg",rating:"&#9825 77",details:"Under Armour Kids Brawler 2.0 Pants",price:"$30.00"},
-    {image:"https://m.media-amazon.com/images/I/71Fv5Q2gbPL._AC_SX255_.jpg",rating:"&#9825 59",details:"Under Armour ignite Vi Graphic FB",price:"$34.95"},
+    {image:"https://m.media-amazon.com/images/I/91NlHmHtP1L._AC_SX255_.jpg",rating:"&#9825 2255;",name:"Calvin Klein Underwear modern cotton",price:"$75"},
+    {image:"https://m.media-amazon.com/images/I/81NYE4eC+xL._AC_SX255_.jpg",rating:"&#9825 216",name:"Calvin Klein Modern Cootm Light weight",price:"$47"},
+    {image:"https://m.media-amazon.com/images/I/61wO3GRY0SL._AC_SX255_.jpg",rating:"&#9825 688",name:"adidas Adilette Comfort ADJ",price:"$35.00"},
+    {image:"https://m.media-amazon.com/images/I/71xRHd9E7AL._AC_SX255_.jpg",rating:"&#9825 176",name:"adidas Running Cloudfoam Pure 2.0",price:"$22.67"},
+    {image:"https://m.media-amazon.com/images/I/71rQq8PIULL._AC_SX255_.jpg",rating:"&#9825 478",name:"Under Armour Raid 2.0 Shorts",price:"$22.67"},
+    {image:"https://m.media-amazon.com/images/I/71zTWHC52RL._AC_SX255_.jpg",rating:"&#9825 245",name:"Under Armour Raid 2.0 Shorts",price:"$22.58"},
+    {image:"https://m.media-amazon.com/images/I/711y37XiVqL._AC_SX255_.jpg",rating:"&#9825 2858",name:"Crocs Classic Tie-Dye-Grape",price:"$35.00"},
+    {image:"https://m.media-amazon.com/images/I/71mmrJgjtbL._AC_SX255_.jpg",rating:"&#9825 193",name:"adidas Running Cloudfoam Pure 2.0",price:"$74.95"},
+    {image:"https://m.media-amazon.com/images/I/81j8hvSmu7L._AC_SX255_.jpg",rating:"&#9825 26",name:"Calvin klein Men's Cottom Classic",price:"$59.50"},
+    {image:"https://m.media-amazon.com/images/I/71u6W-t6wOL._AC_SX255_.jpg",rating:"&#9825 75",name:"Crocs kids classic clog(Toddler)",price:"$34.95"},
+    {image:"https://m.media-amazon.com/images/I/71wbtYunZzL._AC_SX255_.jpg",rating:"&#9825 91",name:"adidas Running Questar",price:"$57.91"},
+    {image:"https://m.media-amazon.com/images/I/81bdJtidxtL._AC_SX255_.jpg",rating:"&#9825 507",name:"Levi's@Women's 501@ High-Rise Shorts",price:"$49.99"},
+    {image:"https://m.media-amazon.com/images/I/812dWoLYTeL._AC_SX255_.jpg",rating:"&#9825 228",name:"Under Armour UA TECH 1/2 ZIP",price:"$27.97"},
+    {image:"https://m.media-amazon.com/images/I/61OB1zpc5WL._AC_SX255_.jpg",rating:"&#9825 14 ",name:"Under Armour New Freedom Flag",price:"$20.75"},
+    {image:"https://m.media-amazon.com/images/I/81fKtCtOOGS._AC_SX255_.jpg",rating:"&#9825 316",name:"Levi's@Womes's Wedgie Straight",price:"$69.99"},
+    {image:"https://m.media-amazon.com/images/I/61Edlc2zjAL._AC_SX255_.jpg",rating:"&#9825 402",name:"Crocs Classic Lined Tie-Dynamic ",price:"$40.00"},
+    {image:"https://m.media-amazon.com/images/I/61TKFhh1HnL._AC_SX255_.jpg",rating:"&#9825 77",name:"Under Armour Kids Brawler 2.0 Pants",price:"$30.00"},
+    {image:"https://m.media-amazon.com/images/I/71Fv5Q2gbPL._AC_SX255_.jpg",rating:"&#9825 59",name:"Under Armour ignite Vi Graphic FB",price:"$34.95"},
     
 ];
 
@@ -204,14 +204,18 @@ let right=5;
     //  let rating=document.createElement("p")
     //  rating.innerText=arr_of_images4[i].rating;
      let des=document.createElement("h4");
-     des.innerText=arr_of_images4[i].details;
+     des.innerText=arr_of_images4[i].name;
      let price=document.createElement("p");
      price.innerText=arr_of_images4[i].price;
      box.append(div,des,price);
+     box.addEventListener("click",function(){
+        storeData(arr_of_images4[i])
+     })
      main.append(box);
 
  }
 }
+
 abc(left,right);
 
 
@@ -496,7 +500,7 @@ function storeData(el){
     //let list=JSON.parse(localStorage.getItem("productinfo"))||[]
     //list.push(el)
     localStorage.setItem("productinfo",JSON.stringify(el))
-    
+    window.location.href="/overrated-impulse-4022/product_page/product.html"
     }
 
     let suedes=document.querySelector(".suedes")
@@ -509,3 +513,4 @@ function storeData(el){
         console.log("ganesh")
         window.location.href="/overrated-impulse-4022/slippers/slippers.html"
     })
+ 

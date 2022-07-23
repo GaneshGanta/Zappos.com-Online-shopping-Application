@@ -127,12 +127,13 @@ function append(response){
      let name= document.createElement("h3")
      name.innerText=`${el.name}`;
      let price= document.createElement("h4")
-     price.innerText=`$${el.price}`;
+     price.innerText=`$ ${el.price}`;
  
      let div= document.createElement("div")
      div.append(image,name,price)
      div.addEventListener("click",function(){
      storeData(el)
+
      })
      container.append(div)
     })
@@ -354,9 +355,10 @@ function append(response){
  div.append(shoe1)
  })
  function storeData(el){
- let list=JSON.parse(localStorage.getItem("productinfo"))||[]
- list.push(el)
- localStorage.setItem("productinfo",JSON.stringify(list))
+//  let list=JSON.parse(localStorage.getItem("productinfo"))
+//  list.push(el)
+ localStorage.setItem("productinfo",JSON.stringify(el))
+ window.location.href="/overrated-impulse-4022/product_page/product.html"
  }
  import navbar from "../navbar/components/navbar.js"
  document.getElementById("navbar").innerHTML=navbar()

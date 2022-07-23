@@ -113,6 +113,6 @@ document.querySelector("#form-submit").addEventListener("click", function (e) {
     localStorage.removeItem("totalCartPriceWithCupon");
     localStorage.removeItem("totalQuantity");
     localStorage.removeItem("discountAmount");
-    window.location.href = "../index.html";
+    window.location.href = "/overrated-impulse-4022/Home page/Homepage.html";
   }
 });

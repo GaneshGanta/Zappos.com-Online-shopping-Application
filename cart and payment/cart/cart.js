@@ -1,14 +1,15 @@
 
 
-//fetch cartData from LS
-let cartData = JSON.parse(localStorage.getItem("cart")) || [];
+//fetch cart from LS
+let cart=JSON.parse(localStorage.getItem('cart'))||[]
+let itemlength=JSON.parse(localStorage.getItem("items"))
 let tbody = document.querySelector(".tbody");
 
 let totalQuantity = 0;
 let totalPrice = 0;
 let sPrice = 0;
 
-displayData(cartData);
+displayData(cart);
 function displayData(data) {
   data.forEach(function (item, index, array) {
     let row = document.createElement("div");
@@ -18,22 +19,16 @@ function displayData(data) {
     leftside.className = "leftside";
     
     let img = document.createElement("img");
-    img.setAttribute("src", item.img_url);
+    img.setAttribute("src", item.image);
     
     let div = document.createElement("div");
     let h4 = document.createElement("h4");
     h4.innerText = item.name;
     
     let h3 = document.createElement("h3");
-    h3.innerText = item.sub_name;
+    h3.innerText = item.name;
     
-    let color = document.createElement("p");
-    color.innerText = `Color: ${item.color}`;
-    
-    let size = document.createElement("p");
-    size.innerText = "item.size";
-    
-    div.append(h4, h3, color), size;
+    div.append(h4, h3);
     leftside.append(img, div);
     
     let rightside = document.createElement("div");
@@ -124,9 +119,9 @@ let h3TotalQt = document.querySelector(".totQt");
 let totQty = document.querySelector(".totQty");
 let smTQ = document.querySelector(".smTQ");
 function displayTotalQuantity() {
-  h3TotalQt.innerText = `${totalQuantity} item in My Cart`;
-  totQty.innerText = `Cart Summary (${totalQuantity} Items)`;
-  smTQ.innerText = `Subtotal (${totalQuantity} items)`;
+  h3TotalQt.innerText = `${itemlength} Item in My Cart`;
+  totQty.innerText = `Cart Summary (${itemlength} Items)`;
+  smTQ.innerText = `Subtotal (${itemlength} items)`;
 }
 displayTotalQuantity();
 

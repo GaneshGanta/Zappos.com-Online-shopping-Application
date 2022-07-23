@@ -8,6 +8,10 @@ import navbar from "../navbar/components/navbar.js"
 document.getElementById("navbar").innerHTML=navbar()
 
 
+
+import product_data from "../product-data-2/components/p2.js"
+document.getElementById("main2").innerHTML=product_data()
+
 document.querySelector("#in").addEventListener("click",function(e) {
     document.querySelector("#r").innerHTML=` <p>
     View the size chart
@@ -64,20 +68,25 @@ document.querySelector("#in").addEventListener("click", function(e) {
 window.location.reload()
 })
 })
-let cart=JSON.parse(localStorage.getItem('cart'))
-let count=0;
-document.getElementById("cartbutton").addEventListener("click", function(e) {
-count++;
-localStorage.setItem('items', JSON.stringify(count))
-})
+let cart=JSON.parse(localStorage.getItem('cart'))||[]
+let itemlength=JSON.parse(localStorage.getItem("items"))
 
-let arr=JSON.parse(localStorage.getItem("productinfo"))||[]
-console.log(arr)
-function display(){
- arr.forEach(function(el){
-    document.querySelector("#mid1").src=`${el.image}`;
-    document.querySelector("#name1").innerText=`${el.name}`;
-    document.querySelector("#price1").innerText=`${el.price}`;
-})
+
+console.log()
+document.getElementById("cartbutton").addEventListener("click", function(e) {
+    cart.push(list)
+    localStorage.setItem("cart",JSON.stringify(cart))
+    localStorage.setItem('items',cart.length)
+    window.location.href="/overrated-impulse-4022/cart and payment/cart/cart.html"
+    })
+
+let list=JSON.parse(localStorage.getItem("productinfo"))
+console.log(list)
+
+
+function display(list){
+    document.querySelector("#mid1").src=`${list.image}`;
+    document.querySelector("#name1").innerText=`${list.name}`;
+    document.querySelector("#price1").innerText=`$  ${list.price}`;
 }
-display(arr)
+display(list)

@@ -2,44 +2,46 @@ let toys=[{image:"https://m.media-amazon.com/images/I/71Gb7zOTHmL._AC_SR768,1024
 name:"UGG Kids Rennon Low (Toddler/Little Kid)"
 },
 {image:"https://m.media-amazon.com/images/I/61-0XFgc29L._AC_SR768,1024_.jpg",
-name:"UGG Kids Caplan Slip-On (Toddler/Little Kid/Big Kid)"},
+name:"UGG Kids Caplan Slip-On (Toddler/Little Kid/Big Kid)",price:100},
 {image:"https://m.media-amazon.com/images/I/61cVxAErA0L._AC_SR768,1024_.jpg",
-name:"UGG Kids Rennon II Weather (Toddler/Little Kid)"},
+name:"UGG Kids Rennon II Weather (Toddler/Little Kid)",price:80},
 {image:"https://m.media-amazon.com/images/I/61ggJZuHQzL._AC_SR768,1024_.jpg",
-name:"UGG Kids Classic Clear Mini Checks (Toddler/Little Kid/Big Kid)"},
+name:"UGG Kids Classic Clear Mini Checks (Toddler/Little Kid/Big Kid)",price:90},
 {image:"https://m.media-amazon.com/images/I/71igE8yBLCL._AC_SR768,1024_.jpg",
-name:"UGG Kids Fluff Yeah Slide Checks (Little Kid/Big Kid)"},
+name:"UGG Kids Fluff Yeah Slide Checks (Little Kid/Big Kid)",price:99},
 {image:"https://m.media-amazon.com/images/I/61C9-iL5-iL._AC_SR768,1024_.jpg",
-name:"UGG Kids Rennon II Weather (Toddler/Little Kid)"},
+name:"UGG Kids Rennon II Weather (Toddler/Little Kid)",price:79},
 {image:"https://m.media-amazon.com/images/I/71ggj8unfCS._AC_SR768,1024_.jpg",
-name:"UGG Kids Neumel II Graphic (Little Kid/Big Kid)"},
+name:"UGG Kids Neumel II Graphic (Little Kid/Big Kid)",price:69},
 {image:"https://m.media-amazon.com/images/I/51JAxoYneJL._AC_SR768,1024_.jpg",
-name:"UGG Kids Fluff Yeah Slide Checks (Toddler/Little Kid)"},
+name:"UGG Kids Fluff Yeah Slide Checks (Toddler/Little Kid)",price:49},
 {image:"https://m.media-amazon.com/images/I/61T0Oh1WGgL._AC_SR768,1024_.jpg",
-name:"UGG Kids Highland Hi Heritage (Toddler/Little Kid/Big Kid)"},
+name:"UGG Kids Highland Hi Heritage (Toddler/Little Kid/Big Kid)",price:59},
 {image:"https://m.media-amazon.com/images/I/61WSg+sOxyL._AC_SR768,1024_.jpg",
-name:"UGG Kids Neumel Ez-Fit (Toddler/Little Kid)"},
+name:"UGG Kids Neumel Ez-Fit (Toddler/Little Kid)",price:69},
 {image:"https://m.media-amazon.com/images/I/51KWFH5-mFL._AC_SR768,1024_.jpg",
-name:"UGG Kids Tasman (Infant/Toddler)"},
+name:"UGG Kids Tasman (Infant/Toddler)",price:78},
 {image:"https://m.media-amazon.com/images/I/61zKohHuOwL._AC_SR768,1024_.jpg",
-name:"UGG Kids Cozy II (Toddler/Little Kid/Big Kid)"},
+name:"UGG Kids Cozy II (Toddler/Little Kid/Big Kid)",price:25},
 {image:"https://m.media-amazon.com/images/I/71N5dfaFzqL._AC_SR768,1024_.jpg",
-name:"UGG Kids Fluff Yeah Slide Spotty (Toddler/Little Kid)"},
+name:"UGG Kids Fluff Yeah Slide Spotty (Toddler/Little Kid)",price:58},
 {image:"https://m.media-amazon.com/images/I/81kHZl74LFL._AC_SR768,1024_.jpg",
-name:"UGG Kids Fluff Yeah Slide Spotty (Toddler/Little Kid)"},
+name:"UGG Kids Fluff Yeah Slide Spotty (Toddler/Little Kid)",price:69},
 {image:"https://m.media-amazon.com/images/I/71zm45s0qHL._AC_SR768,1024_.jpg",
-name:"UGG Kids Fluff Yeah Slide Spotty (Toddler/Little Kid)"},
+name:"UGG Kids Fluff Yeah Slide Spotty (Toddler/Little Kid)",price:25},
 {image:"https://m.media-amazon.com/images/I/71I2ybOvoLL._AC_SR768,1024_.jpg",
-name:"UGG Kids Fluff Yeah Slide (Little Kid/Big Kid)"},
+name:"UGG Kids Fluff Yeah Slide (Little Kid/Big Kid)",price:22},
 {image:"https://m.media-amazon.com/images/I/61GFOqsfPEL._AC_SR768,1024_.jpg",
-name:"UGG Kids Highland Hi Heritage (Toddler/Little Kid/Big Kid)"},
+name:"UGG Kids Highland Hi Heritage (Toddler/Little Kid/Big Kid)",price:45},
 {image:"https://m.media-amazon.com/images/I/61ffy7yvbnS._AC_SR768,1024_.jpg",
-name:"UGG Kids Tasman & Beanie (Infant/Toddler)"},
+name:"UGG Kids Tasman & Beanie (Infant/Toddler)",price:78},
 {image:"https://m.media-amazon.com/images/I/61E0WtJKX-L._AC_SR768,1024_.jpg",
-name:"UGG Kids Fluff Yeah Slide Checks (Toddler/Little Kid)"},
+name:"UGG Kids Fluff Yeah Slide Checks (Toddler/Little Kid)",price:75},
 {image:"https://m.media-amazon.com/images/I/61fRt9W0hjL._AC_SR768,1024_.jpg",
-name:"UGG Kids Fluff Yeah Slide Checks (Little Kid/Big Kid)"}
+name:"UGG Kids Fluff Yeah Slide Checks (Little Kid/Big Kid)",price:85}
 ]
+
+
 let append=()=>{
     let div=document.querySelector("#main")
     div.innerHTML=null;
@@ -51,7 +53,7 @@ let append=()=>{
         let name=document.createElement("h3")
         name.innerText=el.name
         let price=document.createElement("h4")
-        price.innerText=`$  ${Math.floor(Math.random()*100)}`
+        price.innerText=`$ ${el.price}`
         card.addEventListener("click",function(){
             storeData(el)
             })
@@ -195,10 +197,8 @@ let size=document.createElement("div")
      div.append(cat)
  })
  function storeData(el){
-  let list=JSON.parse(localStorage.getItem("productinfo"))
- list.push(el)
- localStorage.setItem("productinfo",JSON.stringify(list))
- //window.location.href="product.html"
-
- }
- 
+    //  let list=JSON.parse(localStorage.getItem("productinfo"))
+    //  list.push(el)
+     localStorage.setItem("productinfo",JSON.stringify(el))
+     window.location.href="/overrated-impulse-4022/product_page/product.html"
+     }

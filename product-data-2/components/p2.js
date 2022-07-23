@@ -21,8 +21,7 @@ function product_data() {
        <p>$70.00</p>
     </div>
   </div> 
-  <h2 class="text ch">Customer Questions</h2>
-  <button id="btn-1">ASK A QUESTION</button>
+ 
   <div id="box-2">
    <img src="./images/img2.png" id="vote_img">
    <div id="mini_box">
