@@ -173,4 +173,7 @@ top: 10%;
     align-items: center;
     padding: 10px;
 
+}.sub_grid2 > div:hover{
+    color: blueviolet;
+    text-decoration: underline;
 }
