@@ -499,7 +499,13 @@ function storeData(el){
     
     }
 
-    let buttonsuedes=document.getElementById("suedes")
-    buttonsuedes.addEventListener("click",function(){
+    let suedes=document.querySelector(".suedes")
+    suedes.addEventListener("click",function(){
+        window.location.href="/overrated-impulse-4022/slippers/slippers.html"
+    })
+
+    let suede=document.querySelector(".suede")
+    suede.addEventListener("click",function(){
+        console.log("ganesh")
         window.location.href="/overrated-impulse-4022/slippers/slippers.html"
     })
