@@ -419,3 +419,87 @@ let secRight=document.getElementById("rightSlide")
 secRight.addEventListener("click",function(){
     rightSlide();
 })
+
+let grid_images=[
+
+    { 
+        image:"https://m.media-amazon.com/images/I/71CqKYbcA3L._AC_SX255_.jpg",
+        name:"Briken Stock Arizona Soft Footbed",
+        price:140.00
+    },
+    { 
+        image:"https://m.media-amazon.com/images/I/71JX4PjmkDL._AC_SX255_.jpg",
+        name:"Birkenstock Gizeh Braided",
+        price:135.00
+    },
+  
+    { 
+        image: "https://m.media-amazon.com/images/I/61CPKNuTfGL._AC_SX255_.jpg",
+        name:"Birkenstock Arizona Earthy Vegan",
+        price:110.00
+    },
+    {
+        image:"https://m.media-amazon.com/images/I/715HZIo6VQL._AC_SX255_.jpg",
+        name:"birkenstock Glenda by Papillio",
+        price:125.00
+    },
+    
+    {
+        image:"https://m.media-amazon.com/images/I/718YWBy22nL._AC_SX255_.jpg",
+        name:"Birkenstock Soley by Papillio",
+        price:140.00
+   },
+    {
+        image:"https://m.media-amazon.com/images/I/71eqSqz3bfL._AC_SX255_.jpg",
+        name:"Biekenstock Francs Oiled Leather",
+        price:125.00
+    }, 
+    {
+       image:"https://m.media-amazon.com/images/I/71obW6DTZjL._AC_SX255_.jpg",
+        name:"Birkenstock Oswego Canvas",
+        price:135.00
+    },
+    {
+        image:"https://m.media-amazon.com/images/I/61mX6yjKOTL._AC_SX255_.jpg",
+        name:"Birkenstock Arizona VeganCanvas",
+        price:110.00
+    }
+];
+
+
+
+function sub_grid2(arr){
+
+    let container=document.querySelector(".sub_grid2")
+    
+    arr.forEach(function(el){
+
+      let div=document.createElement("div")
+         div.addEventListener("click",function(){
+            storeData(el)
+         })
+        let image=document.createElement("img")
+        image.src=el.image;
+        let name=document.createElement("h4")
+        name.innerText=el.name;
+        let price=document.createElement("p")
+        price.innerText=`$${el.price}`;
+        div.append(image,name,price)
+        container.append(div)
+    })
+
+
+}
+sub_grid2(grid_images)
+
+function storeData(el){
+    //let list=JSON.parse(localStorage.getItem("productinfo"))||[]
+    //list.push(el)
+    localStorage.setItem("productinfo",JSON.stringify(el))
+    
+    }
+
+    let buttonsuedes=document.getElementById("suedes")
+    buttonsuedes.addEventListener("click",function(){
+        window.location.href="/overrated-impulse-4022/slippers/slippers.html"
+    })

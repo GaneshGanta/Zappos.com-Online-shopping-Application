@@ -195,7 +195,10 @@ let size=document.createElement("div")
      div.append(cat)
  })
  function storeData(el){
-    let list=JSON.parse(localStorage.getItem("productinfo"))||[]
+  let list=JSON.parse(localStorage.getItem("productinfo"))
  list.push(el)
  localStorage.setItem("productinfo",JSON.stringify(list))
+ //window.location.href="product.html"
+
  }
+ 

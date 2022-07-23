@@ -1,35 +1,7 @@
-#main{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap:20px;
-    width:auto;
-    margin-left: -900px;
-  
-}
-#stmg{
-    margin-top: -470px;
-}
-#img{
-    width:200px;
-    height:auto;
-    margin-right: 20px;
-}
-#side{
-    width:200px;
-    height:800px;
-
-}
-#overview{
-    display:flex
-}
-
-
-
-/* from shoes */
 #first{
     display:flex;
     justify-content: space-between;
-    width:300px;
+    width:100%;
     margin: auto;
 }
 #first select{
@@ -53,7 +25,7 @@ color:#2179ae
 }#second{
     height:80px;
 background-color:#f2f7f6;
-width:60%;
+width:15%;
 margin-bottom: 20px;
 
 }
@@ -67,10 +39,9 @@ width:100%
 }#third{
 width:75%;
 margin-left: 30px;
-margin-top: 150px;
 position: relative;
-top: 100px;
-left:140px
+top:-200px;
+left:100px
 }#third>h4{
 font-size: 24px;
 }
@@ -82,7 +53,7 @@ grid-template-columns: repeat(4,230px);
 
 }
 #grid>div>img{
-width:100%;
+width:70%;
 height:200px;
 background-color: #d4cbcb;
 }
@@ -110,7 +81,8 @@ color:rgb(99, 101, 232)
 }
 #sidebar{
    
-   margin-top: 100px;
+    left:40px;
+    top:290px;
     font-size: large;
     height:auto;
 }
@@ -210,7 +182,7 @@ border:1px solid black;
 text-align: center;
 padding-top: 2px;
 padding-bottom: 2px;
-color:#00415d;
+color:#00415d
 }
 #color{
 cursor: pointer;
@@ -246,14 +218,12 @@ cursor: pointer;
     align-items: center;
     height:60px;
     width:100%;
-    margin-bottom:130px;
-    color:#00415d;
-    margin-top: 230px;
-    margin-left:-60px;
-    
+    margin-bottom:30px;
+    color:#00415d
 }
 #cnt>div{
     border-radius: 20px;
+   
 }
 #ed1{
     width:auto;
@@ -340,12 +310,6 @@ border-radius: 0px;
 }
 
 /* footer */
-#foot{
-    margin-bottom: 10px;
-    position: relative;
-    left:-200px;
-    width: 118%;
-}
 #footer{
     height: 700px;
     width: 100%;
@@ -353,7 +317,6 @@ border-radius: 0px;
     display: flex;
     color: white;
     padding: 5px 5px;
-    
 
 }
 #cs,#ez,#fi,#az,.re,#connect{
@@ -519,4 +482,8 @@ a{
 }
 #sigin:hover{
     border-bottom: 1px solid black;
+}#sort {
+    font-size: larger;
+    font-weight: bold;
+    border: 1px solid rgb(71, 3, 243);
 }
