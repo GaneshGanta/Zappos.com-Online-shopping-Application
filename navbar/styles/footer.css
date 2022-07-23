@@ -58,7 +58,9 @@
     background-color: #07354a;
     color: white;
     padding: 5px 5px;
+    padding-left: 25px;
 }
+
 #footer1 input{
     height: 44px;
     width:200px;
