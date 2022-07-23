@@ -3,10 +3,7 @@ let main=()=>{
     <p id="f">SKU 9699791</p>
     <div id="upper">
     <div id="left">
-    <div class="boximg"><img src="https://m.media-amazon.com/images/I/51Y-EqoYSwL.AC_SS144.jpg" alt=""></div>
-    <div class="boximg"><img src="https://m.media-amazon.com/images/I/61PbBiC9ihL.AC_SS144.jpg" alt=""></div>
-    <div class="boximg"><img src="https://m.media-amazon.com/images/I/61PbBiC9ihL.AC_SS144.jpg" alt=""></div>
-    <div class="boximg"><img src="https://m.media-amazon.com/images/I/61PbBiC9ihL.AC_SS144.jpg" alt=""></div>
+    
     </div>
     <div id="mid">
         <img id="mid1" src="" alt="">

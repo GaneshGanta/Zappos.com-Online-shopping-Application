@@ -1,11 +1,5 @@
-let arr=JSON.parse(localStorage.getItem("productInfo"))||[]
-function display(arr){
- arr.forEach(function(el){
-    document.getElementById("mid1").src=el.image;
-    document.getElementById("name1").src=el.name;
-    document.getElementById("price1").src=el.price;
-})
-}
+
+
 import main from "../product_page/component/importp.js"
 
 document.querySelector("#main").innerHTML=main()
@@ -76,3 +70,14 @@ document.getElementById("cartbutton").addEventListener("click", function(e) {
 count++;
 localStorage.setItem('items', JSON.stringify(count))
 })
+
+let arr=JSON.parse(localStorage.getItem("productinfo"))||[]
+console.log(arr)
+function display(){
+ arr.forEach(function(el){
+    document.querySelector("#mid1").src=`${el.image}`;
+    document.querySelector("#name1").innerText=`${el.name}`;
+    document.querySelector("#price1").innerText=`${el.price}`;
+})
+}
+display(arr)
