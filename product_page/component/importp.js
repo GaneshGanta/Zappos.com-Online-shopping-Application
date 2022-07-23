@@ -9,12 +9,12 @@ let main=()=>{
     <div class="boximg"><img src="https://m.media-amazon.com/images/I/61PbBiC9ihL.AC_SS144.jpg" alt=""></div>
     </div>
     <div id="mid">
-        <img src="https://m.media-amazon.com/images/I/61PbBiC9ihL._AC_SR1472,1840_.jpg" alt="">
+        <img id="mid1" src="" alt="">
     </div>
     <div id="right">
-        <div id="name"><h1>XSCAPE</h1>
-        <h3>Long Scuba Off-the-Shoulder Dress</h3></div>
-        <div id="price"><h1>$199</h1></div>
+        <div id="name"><h2 id="name1"></h2>
+        </div>
+        <div id="price"><h1 id="price1"></h1></div>
          <div id="page">
             <img id="image12" style="width:100px;height:60px" src="https://1000logos.net/wp-content/uploads/2022/02/AfterPay-Logo.png" alt="">
             <h3 id="ship">Ships Free</h3>
