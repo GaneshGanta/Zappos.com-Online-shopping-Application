@@ -3,7 +3,7 @@ let arr=JSON.parse(localStorage.getItem("productInfo"))||[]
 
 import main from "../product_page/component/importp.js"
 
-document.querySelector("#main").innerHTML=main()
+document.querySelector("#main").innerHTML=main();
 
 document.querySelector("#in").addEventListener("click",function(e) {
     document.querySelector("#r").innerHTML=` <p>
