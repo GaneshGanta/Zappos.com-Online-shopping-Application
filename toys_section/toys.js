@@ -52,6 +52,9 @@ toys.forEach(function(el){
     name.innerText=el.name
     let price=document.createElement("h4")
     price.innerText=`$${Math.floor(Math.random()*100)}`
+    card.addEventListener("click",function(){
+        storeData(el)
+        })
 card.append(image,name,price)
 div.append(card)
 })
@@ -192,3 +195,9 @@ let size=document.createElement("div")
      <label for="c3">$200&under(2238)</label><br></br>`
      div.append(cat)
  })
+
+ function storeData(el){
+    let list=JSON.parse(localStorage.getItem("productinfo"))||[]
+ list.push(el)
+ localStorage.setItem("productinfo",JSON.stringify(list))
+ }
