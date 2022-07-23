@@ -262,8 +262,9 @@ function append(response){
    <label for="c2">11-15oz (62)</label><br>`
  div.append(shoe1)
  })
- function storeData(el){
  let list=JSON.parse(localStorage.getItem("productinfo"))||[]
+ function storeData(el){
+ 
  list.push(el)
  localStorage.setItem("productinfo",JSON.stringify(list))
  }
