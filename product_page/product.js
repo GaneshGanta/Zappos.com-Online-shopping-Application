@@ -5,6 +5,10 @@ import main from "../product_page/component/importp.js"
 
 document.querySelector("#main").innerHTML=main();
 
+// import product_data from "../product-data-2/components/p2.js";
+
+// document.getElementById("main-2").innerHTML=product_data();
+
 document.querySelector("#in").addEventListener("click",function(e) {
     document.querySelector("#r").innerHTML=` <p>
     View the size chart
