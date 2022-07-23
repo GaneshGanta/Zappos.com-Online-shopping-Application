@@ -17,10 +17,10 @@
 #logo{
     display: flex;
 }
-h3{
+#ez h3{
     margin-left: 10px;
 }
-a{
+#footer a{
     margin-left: 15px;
     color: white;
     text-decoration: none;
@@ -43,7 +43,7 @@ a{
     color: black;
 }
 
-img{
+#logo img{
     padding: 5px;
     cursor: pointer;
     border-radius: 50%;

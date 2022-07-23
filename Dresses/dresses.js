@@ -262,7 +262,7 @@ function append(response){
  list.push(el)
  localStorage.setItem("productinfo",JSON.stringify(list))
  }
-//  import navbar from "../navbar/components/navbar.js"
-//  document.getElementById("navbar").innerHTML=navbar()
-//  import footer from "../navbar/components/footer.js"
-//  document.getElementById("foot").innerHTML=footer()
+ import navbar from "../navbar/components/navbar.js"
+ document.getElementById("navbar").innerHTML=navbar()
+ import footer from "../navbar/components/footer.js"
+ document.getElementById("foot").innerHTML=footer()

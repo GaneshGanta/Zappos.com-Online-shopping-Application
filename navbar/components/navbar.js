@@ -1,5 +1,5 @@
 function navbar(){
-    return `<a href="/overrated-impulse-4022/navbar/nav.html"><img id="logo" src="https://m.media-amazon.com/images/G/01/zappos/melody/zapposPBS._CB1509642213_.svg" alt=""></a>
+    return `<a href="/overrated-impulse-4022/Home page/Homepage.html"><img id="logo" src="https://m.media-amazon.com/images/G/01/zappos/melody/zapposPBS._CB1509642213_.svg" alt=""></a>
     <input type="text" id="search" placeholder="Search for shoes, clothes, etc.">
     <button id="srch">SEARCH</button>
     <div id="cart">  

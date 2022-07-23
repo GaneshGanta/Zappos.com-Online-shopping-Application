@@ -89,16 +89,16 @@ function append(response){
      width2.innerHTML=`<div>N</div> <div>M</div><div>W</div><div>2A</div> <div>B</div> <div>D</div>`
      div.append(width2)
  })
- let div=document.createElement("div")
- document.querySelector("#gender").addEventListener("click", function(){
-     let gender=document.querySelector("#gender")
+//  let div=document.createElement("div")
+//  document.querySelector("#gender").addEventListener("click", function(){
+//      let gender=document.querySelector("#gender")
    
-     div.setAttribute("id", "mW")
+//      div.setAttribute("id", "mW")
  
-     div.innerHTML=null
-     div.innerHTML=`<div>Male (180)</div> <div>Female(228)</div`
-     gender.append(div)
- })
+//      div.innerHTML=null
+//      div.innerHTML=`<div>Male (180)</div> <div>Female(228)</div`
+//      gender.append(div)
+//  })
  let brand=document.createElement("div")
  document.querySelector("#brand").addEventListener("click", function(){
  let div=document.querySelector("#brand")
@@ -262,7 +262,7 @@ function append(response){
  list.push(el)
  localStorage.setItem("productinfo",JSON.stringify(list))
  }
-//  import navbar from "../navbar/components/navbar.js"
-//  document.getElementById("navbar").innerHTML=navbar()
-//  import footer from "../navbar/components/footer.js"
-//  document.getElementById("foot").innerHTML=footer()
+ import navbar from "../navbar/components/navbar.js"
+ document.getElementById("navbar").innerHTML=navbar()
+ import footer from "../navbar/components/footer.js"
+ document.getElementById("foot").innerHTML=footer()

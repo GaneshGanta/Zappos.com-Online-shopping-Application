@@ -51,7 +51,7 @@ let append=()=>{
         let name=document.createElement("h3")
         name.innerText=el.name
         let price=document.createElement("h4")
-        price.innerText=`$${Math.floor(Math.random()*100)}`
+        price.innerText=`$  ${Math.floor(Math.random()*100)}`
         card.addEventListener("click",function(){
             storeData(el)
             })

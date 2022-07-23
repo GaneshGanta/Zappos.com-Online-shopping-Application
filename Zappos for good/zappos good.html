@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zappos for Good</title>
+    <link rel="stylesheet" href="/overrated-impulse-4022/navbar/styles/nav.css">
+    <link rel="stylesheet" href="/overrated-impulse-4022/navbar/styles/footer.css">
+    <link rel="shortcut icon"href="https://www.zappos.com/favicon.ico" type="image/x-icon"/>   
+
     <style>
         *{
             padding: 0;
@@ -120,6 +124,7 @@
     </style>
 </head>
 <body>
+    <div id="navbar"></div>
 
     <div id="absolute">
         <img  class="main_img" src="https://img.freepik.com/free-vector/watercolor-stains-abstract-background_23-2149107181.jpg?size=626&ext=jpg&ga=GA1.2.786868235.1656681077" alt="">
@@ -220,12 +225,16 @@
 </div>
 
 
-
+<div id="foot"></div>
 
    
     
 </body>
 </html>
-<script>
+<script type="module">
+     import navbar from "../navbar/components/navbar.js"
+ document.getElementById("navbar").innerHTML=navbar()
+ import footer from "../navbar/components/footer.js"
+ document.getElementById("foot").innerHTML=footer()
 
 </script>

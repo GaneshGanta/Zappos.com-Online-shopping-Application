@@ -23,7 +23,10 @@
     }
     }
     carosel(count)
-
+    let kids=document.getElementById("kid")
+    kids.addEventListener("click",function(){
+      window.location.href="/overrated-impulse-4022/kids_shoes/kids.html"
+    })
 
 function leftSlider(){
     if(count==0){
@@ -59,7 +62,11 @@ let arr_of_images=[
     arr_of_images.forEach(function(el){
        
         let div=document.createElement("div");
+
         let box=document.createElement("div");
+        box.addEventListener("click",function(){
+            displaydata(el)
+        })
         div.setAttribute("class","cards");
         let image=document.createElement("img");
         image.src=el.Image;
@@ -70,7 +77,28 @@ let arr_of_images=[
         box.append(div,p)
         x.append(box)
     });
+function displaydata(el){
+    if(el.title==="Sneakers & Athletic Shoes"){
+        window.location.href="/overrated-impulse-4022/Athlete shoes/athlete.html"
+    }
+    else if(el.title==="Sandals"){
+        window.location.href="/overrated-impulse-4022/sandals/sandals.html"
+    }
+    else if(el.title==="dresses"){
+        window.location.href="/overrated-impulse-4022/Dresses/dresses.html"
+    }
+    else if(el.title==="Backpacks for School"){
+        window.location.href="/overrated-impulse-4022/Backpacks/backpack.html"
+    }
+    else if(el.title==="Swimwear"){
+        window.location.href="/overrated-impulse-4022/Swim Wear/swimwear.html"
+    }
+    else if(el.title==="Wedges"){
+        window.location.href="/overrated-impulse-4022/Wedges/wedges.html"
+    }
+    
 
+}
 
     let arr_of_images2=[
 
@@ -100,35 +128,19 @@ let arr_of_images=[
     y.append(box);
 
   })
-function products3(){
- 
-  let div=document.getElementsByClassName("popular3");
-  let box=document.getElementsByName("populars3")
- 
-  let h2=document.createElement("h2")
-  h2.innerText="UGG@ KIDS: School Style Starts Here";
-  let h3=document.createElement("h3");
-  h3.innerText="Find cheerful design, cozy classics, and the easy-to-wear Rennon collection!";
-  let button=document.createElement('button');
-  button .innerText='SHOP UGG @FOOTWEAR FOR KIDS';
-  let image=document.createElement("img")
-  image.src="https://m.media-amazon.com/images/G/01/2022/homepage7.18/COOP-UGG-KIDS-AOE-1920x1000.jpg";
-  box.append(image)
-  div.append(h2,h3,button)
- 
-}
-//products3();
-let arr_of_images3=[
 
+let arr_of_images3=[
     {image:'https://m.media-amazon.com/images/G/01/zappos/landing/opus/2021/homepage/Zappos_ONE_Retina.png',title:'Diversity Equity & Inclusion',des:'At Zappos, diversity and individuality are central to our core values.',spec:'LEARN MORE ABOUT ZAPPOS ONE PURPOSE'},
     {image:'https://m.media-amazon.com/images/G/01/2022/homepage2.08/Blank_500_x_500-491.jpg',title:'Zappos for Good',des:'Learn how to easily donate or recycle your secondhand items.',spec:'EXPLORE ZAPPOS FOR GOOD'},
     {image:'https://m.media-amazon.com/images/G/01/zappos/landing/opus/2020/homepage/july/GGPromo.png',title:'Goods for Good',des:"We're highliting brands who are making a difference and helping build a better place for us all.",spec:'SHOP GOODS FOR GOOD'},
 ];
+
 let last=document.getElementById("last");
-
 arr_of_images3.forEach(function(el){
-
     let div=document.createElement("div");
+    div.addEventListener('click',function(){
+        redirect(el)
+    })
     let image=document.createElement("img");
      image.src=el.image;
     let title=document.createElement("h3");
@@ -141,6 +153,17 @@ arr_of_images3.forEach(function(el){
     last.append(div)
 
 });
+
+function redirect(el){
+    if(el.title=='Diversity Equity & Inclusion'){
+        window.location.href="/overrated-impulse-4022/Zappos one purpose/purpose.html"
+    }else if(el.title=="Zappos for Good"){
+        window.location.href="/overrated-impulse-4022/Zappos for good/zappos good.html" 
+    }else{
+        window.location.href="/overrated-impulse-4022/Zappos Goods for Good/goods for good.html"
+
+    }
+}
 let arr_of_images4=[
 
 
@@ -306,3 +329,75 @@ function rightSlide(){
     }
 
 }
+import navbar from "../navbar/components/navbar.js"
+
+let nav=document.getElementById("navbar")
+nav.innerHTML=navbar()
+
+import footer from "../navbar/components/footer.js"
+
+let foot=document.getElementById("foot")
+foot.innerHTML=footer()
+
+
+let btn=document.getElementById("signin")
+btn.addEventListener("click",function(){
+    window.location.href="/overrated-impulse-4022/navbar/signup.html"
+})
+let userlist=JSON.parse(localStorage.getItem("userInfo"))||[]
+let accountHolder=""
+let account=document.getElementById("signin")
+
+userlist.forEach((el)=>{
+    accountHolder=(el.name)
+})
+let loginsucces=localStorage.getItem("userlogin")
+if(loginsucces==="successfull"){
+    account.innerText=accountHolder
+    account.setAttribute("onclick",function(){
+        console.log("inside")
+    })
+}
+else{
+    account.innerText="Sign In / Register"
+}
+let cart=document.getElementById("cart")
+cart.addEventListener("click",function(){
+    window.location.href="/overrated-impulse-4022/cart and payment/cart/cart.html"
+})
+
+let first=document.getElementById("firstimg")
+first.addEventListener("click",function(){
+    window.location.href="/overrated-impulse-4022/snicker_section/shoes_snickers.html"
+})
+
+
+let final=document.getElementById("image")
+final.addEventListener("click",function(){
+    window.location.href="/overrated-impulse-4022/AffterPay/afterpay.html"
+})
+
+
+
+let searchbtn=document.getElementById("srch")
+searchbtn.addEventListener("click",function(){
+    let query=document.getElementById("search").value
+    if(query==="kid"){
+        window.location.href='/overrated-impulse-4022/kids_shoes/kids.html'
+    }
+    else if(query==="womens"){
+        window.location.href='/overrated-impulse-4022/Dresses/dresses.html'
+    }
+    else if(query==="sandals"){
+        window.location.href='/overrated-impulse-4022/sandals/sandals.html'
+    }
+    else if(query==="sneakers"){
+        window.location.href='/overrated-impulse-4022/snicker_section/shoes_snickers.html'
+    }
+    else if(query==="Athletics"){
+        window.location.href='/overrated-impulse-4022/Athlete shoes/athlete.html'
+    }
+    else if(query==="swimwear"){
+        window.location.href='/overrated-impulse-4022/Swim Wear/swimwear.html'
+    }
+})

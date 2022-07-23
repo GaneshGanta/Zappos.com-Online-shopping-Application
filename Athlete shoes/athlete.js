@@ -16,7 +16,7 @@ let arr_of_data_of_sneakers=[
   },
   {
     image:
-      "https://content.shop4reebok.com/static/Product-EX3921/reebok_EX3921_1.jpg.plp",
+      "https://m.media-amazon.com/images/I/71uRk+8BmWL._AC_SR920,736_.jpg",
     name: "MEN'S REEBOK SWIM ARUBA FLIP SLIPPERS ",
     price: 699,
   },
@@ -29,7 +29,7 @@ let arr_of_data_of_sneakers=[
   },
   {
     image:
-      "https://content.shop4reebok.com/static/Product-FV8798/MEN_SWIM_SLIPPERS_FV8798_1.jpg.plp",
+    "https://m.media-amazon.com/images/I/71tD42JyvKL._AC_SR1840,1472_.jpg",
     name: "MEN'S REEBOK SWIM AVENGER FLIP LP SLIPPERS",
     price: 399,
     strikedoffprice: 799,
@@ -50,28 +50,28 @@ let arr_of_data_of_sneakers=[
   },
   {
     image:
-      "https://content.shop4reebok.com/static/Product-GD8567/MEN_TRAINING_PANTS_GD8567_1.jpg.plp ",
+      "https://m.media-amazon.com/images/I/71oWLCc3KjL._AC_SR1840,1472_.jpg",
     name: " MEN'S TRAINING WORKOUT READY ELITAGE PANTS ",
     price: 1999,
     strikedoffprice: 3199,
   },
   {
     image:
-      "https://content.shop4reebok.com/static/Product-GQ8758/reebok_GQ8758_1.jpg.plp ",
+      "https://m.media-amazon.com/images/I/71MRhi-+g7L._AC_SR1840,1472_.jpg",
     name: "MEN'S REEBOK TRAINING  POLO T-SHIRTS TEE  ",
     price: 769,
     strikedoffprice: 1099,
   },
   {
     image:
-      "https://content.shop4reebok.com/static/Product-GP7180/reebok_GP7180_1.jpg.plp",
+      "https://m.media-amazon.com/images/I/71tVMRU1h2L._AC_SR1840,1472_.jpg",
     name: "MEN'S REEBOK TRAINING WORKOUT  TEE  ",
     price: 1299,
     strikedoffprice: 1440,
   },
   {
     image:
-      "https://content.shop4reebok.com/static/Product-EX3924/reebok_EX3924_1.jpg.plp ",
+      "https://m.media-amazon.com/images/I/71HrnuHSsBL._AC_SR1840,1472_.jpg",
     name: "MEN'S REEBOK SUPER SOFT FLIP SLIPPERS",
     price: 699,
     strikedoffprice: 999,
@@ -92,7 +92,7 @@ let arr_of_data_of_sneakers=[
   },
   {
     image:
-      "https://content.shop4reebok.com/static/Product-FV9519/MEN_SWIM_SLIPPERS_FV9519_1.jpg.plp ",
+      "https://m.media-amazon.com/images/I/710sKVaHTUL._AC_SR1840,1472_.jpg",
     name: "MEN'S REEBOK SWIM RUSSLE FLIP SLIPPERS  ",
     price: 599,
     strikedoffprice: 999,
@@ -113,7 +113,7 @@ let arr_of_data_of_sneakers=[
   },
   {
     image:
-      "https://content.shop4reebok.com/static/Product-GK9170/reebok_GK9170_1.jpg.plp ",
+      "https://m.media-amazon.com/images/I/71pZPtA9-8L._AC_SR1840,1472_.jpg ",
     name: " MEN'S REEBOK TRAINING BAS POLO TEE ",
     price: 779,
     strikedoffprice: 1299,
@@ -189,16 +189,16 @@ function append(response){
      width2.innerHTML=`<div>N</div> <div>M</div><div>W</div><div>2A</div> <div>B</div> <div>D</div>`
      div.append(width2)
  })
- let div=document.createElement("div")
- document.querySelector("#gender").addEventListener("click", function(){
-     let gender=document.querySelector("#gender")
+//  let div=document.createElement("div")
+//  document.querySelector("#gender").addEventListener("click", function(){
+//      let gender=document.querySelector("#gender")
    
-     div.setAttribute("id", "mW")
+//      div.setAttribute("id", "mW")
  
-     div.innerHTML=null
-     div.innerHTML=`<div>Male (180)</div> <div>Female(228)</div`
-     gender.append(div)
- })
+//      div.innerHTML=null
+//      div.innerHTML=`<div>Male (180)</div> <div>Female(228)</div`
+//      gender.append(div)
+//  })
  let brand=document.createElement("div")
  document.querySelector("#brand").addEventListener("click", function(){
  let div=document.querySelector("#brand")
@@ -362,7 +362,7 @@ function append(response){
  list.push(el)
  localStorage.setItem("productinfo",JSON.stringify(list))
  }
-//  import navbar from "../navbar/components/navbar.js"
-//  document.getElementById("navbar").innerHTML=navbar()
-//  import footer from "../navbar/components/footer.js"
-//  document.getElementById("foot").innerHTML=footer()
+ import navbar from "../navbar/components/navbar.js"
+ document.getElementById("navbar").innerHTML=navbar()
+ import footer from "../navbar/components/footer.js"
+ document.getElementById("foot").innerHTML=footer()

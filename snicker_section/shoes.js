@@ -19,7 +19,7 @@ function append(response){
      let name= document.createElement("h3")
      name.innerText=`Name: ${el.name}`;
      let price= document.createElement("h4")
-     price.innerText=`₹${el.price}`;
+     price.innerText=`$ ${el.price}`;
  
      let div= document.createElement("div")
      div.append(image,name,price)
